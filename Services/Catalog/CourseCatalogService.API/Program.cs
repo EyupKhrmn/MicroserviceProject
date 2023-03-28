@@ -23,7 +23,7 @@ builder.Services.AddScoped<ICourseService, CourseService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IDatabaseSettings, DatabaseSettings>();
 
-
+//hata burada course serviste herhangi bir iþlem yapýnca hata veriyor
 builder.Services.AddScoped<IMongoCollection<Category>>(s =>
         s.GetService<IMongoClient>()!.GetDatabase("catalogDb").GetCollection<Category>("categories"));
 
