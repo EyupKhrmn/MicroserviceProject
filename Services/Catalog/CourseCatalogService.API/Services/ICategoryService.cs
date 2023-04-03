@@ -1,5 +1,5 @@
 ﻿using CourseCatalogService.API.Dtos;
-using CourseServiceCatalog.Shared;
+using CourseServiceCatalog.Shares;
 
 namespace CourseCatalogService.API.Services
 {

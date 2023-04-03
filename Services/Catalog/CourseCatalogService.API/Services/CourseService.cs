@@ -2,10 +2,10 @@
 using CourseCatalogService.API.Dtos;
 using CourseCatalogService.API.Model;
 using CourseCatalogService.API.Settings;
-using CourseServiceCatalog.Shared;
-using Microsoft.AspNetCore.Http.HttpResults;
+using CourseServiceCatalog.Shares;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
+using NoContent = Microsoft.AspNetCore.Http.HttpResults.NoContent;
 
 namespace CourseCatalogService.API.Services
 {

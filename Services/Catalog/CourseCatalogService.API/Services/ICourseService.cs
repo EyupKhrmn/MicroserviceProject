@@ -1,6 +1,6 @@
 ﻿using CourseCatalogService.API.Dtos;
-using CourseServiceCatalog.Shared;
-using Microsoft.AspNetCore.Http.HttpResults;
+using CourseServiceCatalog.Shares;
+using NoContent = Microsoft.AspNetCore.Http.HttpResults.NoContent;
 
 namespace CourseCatalogService.API.Services
 {

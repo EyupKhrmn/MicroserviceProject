@@ -2,7 +2,7 @@
 using CourseCatalogService.API.Dtos;
 using CourseCatalogService.API.Model;
 using CourseCatalogService.API.Settings;
-using CourseServiceCatalog.Shared;
+using CourseServiceCatalog.Shares;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 
