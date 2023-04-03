@@ -1,6 +1,7 @@
 ﻿using CourseCatalogService.API.Dtos;
 using CourseCatalogService.API.Services;
 using CourseServiceCatalog.Shares;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
