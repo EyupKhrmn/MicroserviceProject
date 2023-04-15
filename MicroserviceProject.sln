@@ -22,6 +22,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCouse.IdentityServer", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseServiceCatalog.Shares", "Shared\CourseServiceCatalog.Shares\CourseServiceCatalog.Shares.csproj", "{82FD6D5A-2154-4A24-BB28-A27D23430E70}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStock", "PhotoStock", "{0BD668B1-4FD9-45B9-B57D-0DB5CFC8FA07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourseServices.PhotoStock", "Services\PhotoStock\FreeCourseServices.PhotoStock\FreeCourseServices.PhotoStock.csproj", "{F2053305-DD9E-4B54-97E2-C6C74B608801}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +44,10 @@ Global
 		{82FD6D5A-2154-4A24-BB28-A27D23430E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82FD6D5A-2154-4A24-BB28-A27D23430E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82FD6D5A-2154-4A24-BB28-A27D23430E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2053305-DD9E-4B54-97E2-C6C74B608801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2053305-DD9E-4B54-97E2-C6C74B608801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2053305-DD9E-4B54-97E2-C6C74B608801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2053305-DD9E-4B54-97E2-C6C74B608801}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +57,8 @@ Global
 		{CD0385A8-AB1E-4BDA-8442-8290E2691E91} = {81A7D52C-AC5D-4D09-84BD-165390F5D246}
 		{2357C23C-D646-4A28-9A25-42409DE26028} = {930CAA2D-E472-4825-9AD6-C782F068BAF2}
 		{82FD6D5A-2154-4A24-BB28-A27D23430E70} = {37365FD5-7AFF-496E-AEBB-C4B53632764F}
+		{0BD668B1-4FD9-45B9-B57D-0DB5CFC8FA07} = {D08F6331-8976-4136-AAA7-01ED600EB8B1}
+		{F2053305-DD9E-4B54-97E2-C6C74B608801} = {0BD668B1-4FD9-45B9-B57D-0DB5CFC8FA07}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {42B89727-6ED8-4C15-9C1A-870949F70386}

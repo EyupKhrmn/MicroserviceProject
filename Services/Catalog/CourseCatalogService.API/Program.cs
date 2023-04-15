@@ -38,8 +38,8 @@ builder.Services.AddScoped<IDatabaseSettings, DatabaseSettings>();
 builder.Services.AddScoped<IMongoCollection<Category>>(s =>
         s.GetService<IMongoClient>()!.GetDatabase("catalogDb").GetCollection<Category>("categories"));
 
-builder.Services.AddScoped<IMongoCollection<Course>>(s =>
-         s.GetService<IMongoClient>()!.GetDatabase("catalogDb").GetCollection<Course>("Courses"));
+// builder.Services.AddScoped<IMongoCollection<Course>>(s =>
+//          s.GetService<IMongoClient>()!.GetDatabase("catalogDb").GetCollection<Course>("Courses"));
 
 
 builder.Services.AddEndpointsApiExplorer();
