@@ -30,6 +30,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{64A9CD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Services.Basket", "Services\Basket\FreeCourse.Services.Basket\FreeCourse.Services.Basket.csproj", "{0EA8CD61-4C54-4CE7-92D9-3AD1922E4BA1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{9A59973B-D342-4FE5-BFD9-410D2DC7D3F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Services.Discount", "Services\Discount\FreeCourse.Services.Discount\FreeCourse.Services.Discount.csproj", "{26946483-299C-4A48-AF2B-176B70BC3671}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +60,10 @@ Global
 		{0EA8CD61-4C54-4CE7-92D9-3AD1922E4BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EA8CD61-4C54-4CE7-92D9-3AD1922E4BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EA8CD61-4C54-4CE7-92D9-3AD1922E4BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26946483-299C-4A48-AF2B-176B70BC3671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26946483-299C-4A48-AF2B-176B70BC3671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26946483-299C-4A48-AF2B-176B70BC3671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26946483-299C-4A48-AF2B-176B70BC3671}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +77,8 @@ Global
 		{F2053305-DD9E-4B54-97E2-C6C74B608801} = {0BD668B1-4FD9-45B9-B57D-0DB5CFC8FA07}
 		{64A9CDD8-32D0-482B-8658-57CAF7CF5803} = {D08F6331-8976-4136-AAA7-01ED600EB8B1}
 		{0EA8CD61-4C54-4CE7-92D9-3AD1922E4BA1} = {64A9CDD8-32D0-482B-8658-57CAF7CF5803}
+		{9A59973B-D342-4FE5-BFD9-410D2DC7D3F7} = {D08F6331-8976-4136-AAA7-01ED600EB8B1}
+		{26946483-299C-4A48-AF2B-176B70BC3671} = {9A59973B-D342-4FE5-BFD9-410D2DC7D3F7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {42B89727-6ED8-4C15-9C1A-870949F70386}
