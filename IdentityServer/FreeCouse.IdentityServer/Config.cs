@@ -15,6 +15,7 @@ namespace FreeCouse.IdentityServer
         {
             new ApiResource("resource_catalog") { Scopes = { "catalog_fullpermission" } },
             new ApiResource("resource_photo_stock") { Scopes = { "photo_stock_fullpermission" } },
+            new ApiResource("resource_basket") { Scopes = { "basket_fullpermission" } },
             new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
         };
 
@@ -32,6 +33,7 @@ namespace FreeCouse.IdentityServer
             {
                 new ApiScope("catalog_fullpermission","catalog apı için tam erişim"),
                 new ApiScope("photo_stock_fullpermission","photostock apı için tam erişim"),
+                new ApiScope("basket_fullpermission","basket apı için tam erişim"),
                 new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
             };
 
@@ -56,6 +58,7 @@ namespace FreeCouse.IdentityServer
                     AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
                     AllowedScopes =
                     {
+                        "basket_fullpermission",
                         IdentityServerConstants.StandardScopes.Email,IdentityServerConstants.StandardScopes.OpenId,
                         IdentityServerConstants.StandardScopes.Profile,IdentityServerConstants.StandardScopes.OfflineAccess,
                         IdentityServerConstants.LocalApi.ScopeName,"roles"

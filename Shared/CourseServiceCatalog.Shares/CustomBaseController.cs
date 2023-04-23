@@ -2,6 +2,8 @@
 
 namespace CourseServiceCatalog.Shares
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class CustomBaseController : ControllerBase
     {
         public IActionResult CreateActionResultInstance<T>(ResponseDto<T> responce)
