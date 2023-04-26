@@ -4,6 +4,7 @@ Services
   - photostock => localhost:5012
   - Basket => localhost:5013
   - Discount => localhost:5014
+  - Order => localhost:5015
 
 Portainer
   - Localhost:9443
