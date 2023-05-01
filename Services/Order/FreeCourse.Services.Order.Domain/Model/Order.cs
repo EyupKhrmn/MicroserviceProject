@@ -14,7 +14,9 @@ public class Order : Entity, IAggrigateRoot
 
     public IReadOnlyCollection<OrderItem> OrderItems => _orderItems;
 
-
+    public Order()
+    { 
+    }
     public Order(string buyerId,Address address)
     {
         _orderItems = new List<OrderItem>();

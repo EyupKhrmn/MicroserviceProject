@@ -20,7 +20,7 @@ public class OrderDbContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Domain.Model.Order>().ToTable("Orders", DEFAULT_SHEMA);
-        modelBuilder.Entity<OrderItem>().ToTable("Orders", DEFAULT_SHEMA);
+        modelBuilder.Entity<OrderItem>().ToTable("OrderItems", DEFAULT_SHEMA);
         modelBuilder.Entity<OrderItem>().Property(x => x.Price).HasColumnType("decimal(18,2)");
 
         modelBuilder.Entity<Domain.Model.Order>().OwnsOne(x => x.Address).WithOwner();

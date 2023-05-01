@@ -20,8 +20,8 @@ public class CreateOrderCommandHandler : IRequestHandler<CreateOrderCommand,Resp
 
     public async Task<ResponseDto<CreatedOrderDto>> Handle(CreateOrderCommand request, CancellationToken cancellationToken)
     {
-        var newAddress = new Address(request.AddressDto.Province, request.AddressDto.District,
-            request.AddressDto.Street, request.AddressDto.ZipCode, request.AddressDto.Line);
+        var newAddress = new Address(request.Address.Province, request.Address.District,
+            request.Address.Street, request.Address.ZipCode, request.Address.Line);
 
         Domain.Model.Order newOrder = new Domain.Model.Order(request.BuyerId, newAddress);
 
