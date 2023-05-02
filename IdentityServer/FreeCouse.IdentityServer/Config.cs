@@ -19,6 +19,7 @@ namespace FreeCouse.IdentityServer
             new ApiResource("resource_discount") { Scopes = { "discount_fullpermission" } },
             new ApiResource("resource_order") { Scopes = { "order_fullpermission" } },
             new ApiResource("resource_payment") { Scopes = { "payment_fullpermission" } },
+            new ApiResource("resource_gateway") { Scopes = { "gateway_fullpermission" } },
             new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
         };
 
@@ -40,6 +41,7 @@ namespace FreeCouse.IdentityServer
                 new ApiScope("discount_fullpermission","discount apı için tam erişim"),
                 new ApiScope("order_fullpermission","order apı için tam erişim"),
                 new ApiScope("payment_fullpermission","payment apı için tam erişim"),
+                new ApiScope("gateway_fullpermission","gateway apı için tam erişim"),
                 new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
             };
 
@@ -52,7 +54,7 @@ namespace FreeCouse.IdentityServer
                     ClientId = "WebMvcClient",
                     ClientSecrets = {new Secret("secret".Sha256())},
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
-                    AllowedScopes = {"catalog_fullpermission","photo_stock_fullpermission",IdentityServerConstants.LocalApi.ScopeName}
+                    AllowedScopes = {"catalog_fullpermission","photo_stock_fullpermission","gateway_fullpermission",IdentityServerConstants.LocalApi.ScopeName}
                 },
                 
                 new Client
@@ -65,6 +67,7 @@ namespace FreeCouse.IdentityServer
                     AllowedScopes =
                     {
                         "basket_fullpermission", "discount_fullpermission", "order_fullpermission", "payment_fullpermission",
+                        "gateway_fullpermission",
                         IdentityServerConstants.StandardScopes.Email,IdentityServerConstants.StandardScopes.OpenId,
                         IdentityServerConstants.StandardScopes.Profile,IdentityServerConstants.StandardScopes.OfflineAccess,
                         IdentityServerConstants.LocalApi.ScopeName,"roles"

@@ -6,6 +6,9 @@ Services
   - Discount => localhost:5014
   - Order => localhost:5015
   - FakePayment => localhost:5016
+  
+
+- Gateway => localhost:5000
 
 Portainer
   - Localhost:9443
