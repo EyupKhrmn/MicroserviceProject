@@ -5,6 +5,7 @@ Services
   - Basket => localhost:5013
   - Discount => localhost:5014
   - Order => localhost:5015
+  - FakePayment => localhost:5016
 
 Portainer
   - Localhost:9443

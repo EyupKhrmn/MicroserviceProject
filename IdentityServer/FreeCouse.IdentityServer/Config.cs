@@ -18,6 +18,7 @@ namespace FreeCouse.IdentityServer
             new ApiResource("resource_basket") { Scopes = { "basket_fullpermission" } },
             new ApiResource("resource_discount") { Scopes = { "discount_fullpermission" } },
             new ApiResource("resource_order") { Scopes = { "order_fullpermission" } },
+            new ApiResource("resource_payment") { Scopes = { "payment_fullpermission" } },
             new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
         };
 
@@ -38,6 +39,7 @@ namespace FreeCouse.IdentityServer
                 new ApiScope("basket_fullpermission","basket apı için tam erişim"),
                 new ApiScope("discount_fullpermission","discount apı için tam erişim"),
                 new ApiScope("order_fullpermission","order apı için tam erişim"),
+                new ApiScope("payment_fullpermission","payment apı için tam erişim"),
                 new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
             };
 
@@ -62,7 +64,7 @@ namespace FreeCouse.IdentityServer
                     AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
                     AllowedScopes =
                     {
-                        "basket_fullpermission", "discount_fullpermission", "order_fullpermission",
+                        "basket_fullpermission", "discount_fullpermission", "order_fullpermission", "payment_fullpermission",
                         IdentityServerConstants.StandardScopes.Email,IdentityServerConstants.StandardScopes.OpenId,
                         IdentityServerConstants.StandardScopes.Profile,IdentityServerConstants.StandardScopes.OfflineAccess,
                         IdentityServerConstants.LocalApi.ScopeName,"roles"
