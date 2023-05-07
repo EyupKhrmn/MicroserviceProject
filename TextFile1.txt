@@ -9,6 +9,7 @@ Services
   
 
 - Gateway => localhost:5000
+- Web => localhost:5010
 
 Portainer
   - Localhost:9443
