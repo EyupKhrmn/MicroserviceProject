@@ -13,7 +13,7 @@ builder.Services.Configure<ClientSettings>(builder.Configuration.GetSection("Cli
 var serviceApiSettings = builder.Configuration.GetSection("ServiceApiSettings").Get<ServiceApiSettings>();
 builder.Services.AddHttpContextAccessor();
 
-
+builder.Services.AddScoped<ResourceOwnerPasswordTokenHandler>();
 builder.Services.AddHttpClient<IIdentityService, IdentityService>();
 
 
@@ -51,8 +51,8 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthorization();
 app.UseAuthentication();
+app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
