@@ -12,6 +12,12 @@
 
     <ItemGroup>
       <PackageReference Include="IdentityModel" Version="6.1.0" />
+      <PackageReference Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="6.30.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Pages\Auth\SignIn.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Home\Auth\SignIn.cshtml" />
     </ItemGroup>
 
 </Project>
