@@ -20,9 +20,9 @@ public class IdentityService : IIdentityService
     private readonly HttpClient _httpClient;
     private readonly IHttpContextAccessor _httpContextAccessor;
     private readonly ClientSettings _clientSettings;
-    private readonly ServiceApıSettings _serviceApıSettings;
+    private readonly ServiceApiSettings _serviceApıSettings;
 
-    public IdentityService(HttpClient httpClient, IHttpContextAccessor httpContextAccessor, IOptions<ClientSettings> clientSettings, IOptions<ServiceApıSettings> serviceApıSettings)
+    public IdentityService(HttpClient httpClient, IHttpContextAccessor httpContextAccessor, IOptions<ClientSettings> clientSettings, IOptions<ServiceApiSettings> serviceApıSettings)
     {
         _httpClient = httpClient;
         _httpContextAccessor = httpContextAccessor;
@@ -35,7 +35,8 @@ public class IdentityService : IIdentityService
         var disco = await _httpClient.GetDiscoveryDocumentAsync(new DiscoveryDocumentRequest
         {
             Address = _serviceApıSettings.BaseUrl,
-            Policy = new DiscoveryPolicy { RequireHttps = false }
+            Policy = new DiscoveryPolicy { RequireHttps = false },
+            
         });
 
         if (disco.IsError)
