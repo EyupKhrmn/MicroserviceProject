@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "NFhlzrvaFmHphNwUUDnDMftJG3ZwBM3plGhNp3VBF9Y=",
+  "Source": "FreeCourseServices.PhotoStock",
+  "BasePath": "_content/FreeCourseServices.PhotoStock",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FreeCourseServices.PhotoStock\\wwwroot",
+      "Source": "FreeCourseServices.PhotoStock",
+      "ContentRoot": "C:\\Users\\Eyup\\RiderProjects\\MicroserviceProject\\Services\\PhotoStock\\FreeCourseServices.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/FreeCourseServices.PhotoStock",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Eyup\\RiderProjects\\MicroserviceProject\\Services\\PhotoStock\\FreeCourseServices.PhotoStock\\wwwroot\\photos\\Ekran görüntüsü_20230117_224927.png",
+      "SourceId": "FreeCourseServices.PhotoStock",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Eyup\\RiderProjects\\MicroserviceProject\\Services\\PhotoStock\\FreeCourseServices.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/FreeCourseServices.PhotoStock",
+      "RelativePath": "photos/Ekran görüntüsü_20230117_224927.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\Ekran görüntüsü_20230117_224927.png"
+    }
+  ]
+}

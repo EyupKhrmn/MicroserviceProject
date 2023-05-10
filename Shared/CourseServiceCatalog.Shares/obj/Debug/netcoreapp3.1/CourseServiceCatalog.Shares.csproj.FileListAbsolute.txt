@@ -1,0 +1,10 @@
+C:\Users\Eyup\RiderProjects\MicroserviceProject\Shared\CourseServiceCatalog.Shares\bin\Debug\netcoreapp3.1\CourseServiceCatalog.Shares.deps.json
+C:\Users\Eyup\RiderProjects\MicroserviceProject\Shared\CourseServiceCatalog.Shares\bin\Debug\netcoreapp3.1\CourseServiceCatalog.Shares.dll
+C:\Users\Eyup\RiderProjects\MicroserviceProject\Shared\CourseServiceCatalog.Shares\bin\Debug\netcoreapp3.1\CourseServiceCatalog.Shares.pdb
+C:\Users\Eyup\RiderProjects\MicroserviceProject\Shared\CourseServiceCatalog.Shares\obj\Debug\netcoreapp3.1\CourseServiceCatalog.Shares.csproj.AssemblyReference.cache
+C:\Users\Eyup\RiderProjects\MicroserviceProject\Shared\CourseServiceCatalog.Shares\obj\Debug\netcoreapp3.1\CourseServiceCatalog.Shares.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eyup\RiderProjects\MicroserviceProject\Shared\CourseServiceCatalog.Shares\obj\Debug\netcoreapp3.1\CourseServiceCatalog.Shares.AssemblyInfoInputs.cache
+C:\Users\Eyup\RiderProjects\MicroserviceProject\Shared\CourseServiceCatalog.Shares\obj\Debug\netcoreapp3.1\CourseServiceCatalog.Shares.AssemblyInfo.cs
+C:\Users\Eyup\RiderProjects\MicroserviceProject\Shared\CourseServiceCatalog.Shares\obj\Debug\netcoreapp3.1\CourseServiceCatalog.Shares.csproj.CoreCompileInputs.cache
+C:\Users\Eyup\RiderProjects\MicroserviceProject\Shared\CourseServiceCatalog.Shares\obj\Debug\netcoreapp3.1\CourseServiceCatalog.Shares.dll
+C:\Users\Eyup\RiderProjects\MicroserviceProject\Shared\CourseServiceCatalog.Shares\obj\Debug\netcoreapp3.1\CourseServiceCatalog.Shares.pdb

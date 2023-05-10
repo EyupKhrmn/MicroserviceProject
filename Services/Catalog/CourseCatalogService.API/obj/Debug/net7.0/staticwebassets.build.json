@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "AZk8zOKWIJekDJP6PCPeBL+5xnDfdOzjURh+AK18bB8=",
+  "Source": "CourseCatalogService.API",
+  "BasePath": "_content/CourseCatalogService.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

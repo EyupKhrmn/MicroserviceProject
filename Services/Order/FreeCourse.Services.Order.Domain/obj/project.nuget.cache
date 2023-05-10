@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "BeQbPEH4qDP8Job1WM3k/yd3/Z3XOsQR8bb9wj9XInuBrmwBpkU8oDOON89xSIvD2AoB/z6tTnd2ybHumxQK5A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Eyup\\RiderProjects\\MicroserviceProject\\Services\\Order\\FreeCourse.Services.Order.Domain\\FreeCourse.Services.Order.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Eyup\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\Eyup\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Eyup\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\Eyup\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

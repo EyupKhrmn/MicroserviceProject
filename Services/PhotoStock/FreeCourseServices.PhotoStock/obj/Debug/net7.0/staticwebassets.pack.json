@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Eyup\\RiderProjects\\MicroserviceProject\\Services\\PhotoStock\\FreeCourseServices.PhotoStock\\wwwroot\\photos\\Ekran görüntüsü_20230117_224927.png",
+      "PackagePath": "staticwebassets\\photos\\Ekran görüntüsü_20230117_224927.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.FreeCourseServices.PhotoStock.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.FreeCourseServices.PhotoStock.props",
+      "PackagePath": "build\\FreeCourseServices.PhotoStock.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.FreeCourseServices.PhotoStock.props",
+      "PackagePath": "buildMultiTargeting\\FreeCourseServices.PhotoStock.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.FreeCourseServices.PhotoStock.props",
+      "PackagePath": "buildTransitive\\FreeCourseServices.PhotoStock.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
